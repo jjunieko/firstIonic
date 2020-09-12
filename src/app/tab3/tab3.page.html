@@ -10,6 +10,10 @@
     <video autoplay muted controls>
       <source  src="http://img.mobiscroll.com/demos/trailer_iphone.m4v" type="video/x-m4v">
   </video>
+    <mbsc-card-footer>
+        <mbsc-button flat>Play</mbsc-button>
+        <mbsc-button flat>Reset</mbsc-button>
+    </mbsc-card-footer>
     <mbsc-card-header>
         <mbsc-card-title>Big Buck Bunny</mbsc-card-title>
     </mbsc-card-header>
@@ -18,12 +22,74 @@
     </mbsc-card-content>
 </mbsc-card>
 
-<mbsc-card [options]="settings">
-    <video autoplay muted controls>
-      <source  src="http://img.mobiscroll.com/demos/trailer_iphone.m4v" type="video/x-m4v">
-  </video>
+<br>
+
+<mbsc-card [options]="cardSettings">
+    <mbsc-card-header>
+        <mbsc-avatar src="https://img.mobiscroll.com/demos/mr-profile2.png"></mbsc-avatar>
+        <mbsc-card-title class="mbsc-bold">Carl Obama</mbsc-card-title>
+        <mbsc-card-subtitle> at 5:16 PM</mbsc-card-subtitle>
+    </mbsc-card-header>
+    <img src="https://img.mobiscroll.com/demos/Blueberry.png">
+    <mbsc-card-content>
+        Yeaahhh :D :D :D I've made it. It took me 3 months to improve my blueberry cake. But it's perfect now. :P
+    </mbsc-card-content>
     <mbsc-card-footer>
-        <mbsc-button flat>Play</mbsc-button>
-        <mbsc-button flat>Reset</mbsc-button>
+        <mbsc-button flat icon="heart"></mbsc-button>
+        <mbsc-button flat icon="thumbs-up2"></mbsc-button>
+        <mbsc-button flat icon="material-message"></mbsc-button>
+        <mbsc-button flat icon="tag"></mbsc-button>
+    </mbsc-card-footer>
+</mbsc-card>
+
+<mbsc-card [options]="cardSettings">
+    <mbsc-card-header>
+        <mbsc-avatar src="https://img.mobiscroll.com/demos/mrs-profile1.png"></mbsc-avatar>
+        <mbsc-card-title class="mbsc-bold">Hortense Tinker</mbsc-card-title>
+        <mbsc-card-subtitle> at 4:55 PM</mbsc-card-subtitle>
+    </mbsc-card-header>
+    <img src="https://img.mobiscroll.com/demos/card_1.png">
+    <mbsc-card-content>
+        Best places to seek silence !!! The Dhamma Giri, a vipassana meditation retreat.
+    </mbsc-card-content>
+    <mbsc-card-footer class="mbsc-align-right">
+        <mbsc-button flat icon="fa-mail-reply"></mbsc-button>
+        <mbsc-button flat icon="star3">3</mbsc-button>
+        <mbsc-button flat icon="fa-retweet">5</mbsc-button>
+        <mbsc-button flat icon="fa-ellipsis-h"></mbsc-button>
+    </mbsc-card-footer>
+</mbsc-card>
+
+<mbsc-card [options]="cardSettings">
+    <mbsc-card-header>
+        <mbsc-avatar src="https://img.mobiscroll.com/demos/mrs-profile2.png"></mbsc-avatar>
+        <mbsc-card-title class="mbsc-bold">Jenna Doe</mbsc-card-title>
+        <mbsc-card-subtitle> at 4:16 PM</mbsc-card-subtitle>
+    </mbsc-card-header>
+    <img src="https://img.mobiscroll.com/demos/card_2.png">
+    <mbsc-card-content>
+        There is a new baby panda at the zoo.... :) :O :D
+    </mbsc-card-content>
+    <mbsc-card-footer class="mbsc-align-right">
+        <mbsc-button flat icon="fa-mail-reply"></mbsc-button>
+        <mbsc-button flat icon="star3">19</mbsc-button>
+        <mbsc-button flat icon="fa-retweet">3</mbsc-button>
+        <mbsc-button flat icon="fa-ellipsis-h"></mbsc-button>
+    </mbsc-card-footer>
+</mbsc-card>
+
+<mbsc-card [options]="cardSettings">
+    <mbsc-card-header>
+        <mbsc-avatar src="https://img.mobiscroll.com/demos/mr-profile1.png"></mbsc-avatar>
+        <mbsc-card-title class="mbsc-bold">John Bush</mbsc-card-title>
+        <mbsc-card-subtitle> at 2:23 PM</mbsc-card-subtitle>
+    </mbsc-card-header>
+    <img src="https://img.mobiscroll.com/demos/account-background.jpg">
+    <mbsc-card-content>
+        Best trip ever!!! :D I'll definetly come back here. :)
+    </mbsc-card-content>
+    <mbsc-card-footer>
+        <mbsc-button flat>Like</mbsc-button>
+        <mbsc-button flat>Share</mbsc-button>
     </mbsc-card-footer>
 </mbsc-card>
