@@ -1,17 +1,49 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-title>
+            Feed
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<br/>
+<mbsc-card [options]="settings">
+    <img src="https://img.mobiscroll.com/demos/card_2.png">
+    <mbsc-card-header>
+        <mbsc-card-title>Best animal adventure</mbsc-card-title>
+    </mbsc-card-header>
+    <mbsc-card-content>
+        A young panda tests his climbing skills at the Chengdu Research Base.
+    </mbsc-card-content>
+    <mbsc-card-footer>
+        <mbsc-button flat>Share</mbsc-button>
+        <mbsc-button flat>Explore</mbsc-button>
+    </mbsc-card-footer>
+</mbsc-card>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
-</ion-content>
+<mbsc-card [options]="settings" class="md-card-bg">
+    <img src="https://img.mobiscroll.com/demos/card_6.png">
+    <h2 class="md-card-title mbsc-align-center">Las Vegas</h2>
+    <h5 class="md-card-subtitle mbsc-align-center mbsc-bold">63 apartments available</h5>
+</mbsc-card>
+
+<mbsc-card [options]="settings">
+    <mbsc-card-header>
+        <mbsc-card-title>15 minutes to work</mbsc-card-title>
+    </mbsc-card-header>
+    <img src="https://img.mobiscroll.com/demos/route.png">
+    <mbsc-card-content class="mbsc-btn-group-block">
+        <mbsc-button flat class="mbsc-align-left" icon="ion-navigate">Navigate / 15 min. via Shotwell St</mbsc-button>
+        <mbsc-button flat class="mbsc-align-left" icon="fa-rotate-left">Alternative route / 18 mins</mbsc-button>
+    </mbsc-card-content>
+</mbsc-card>
+
+<mbsc-card [options]="settings">
+    <img class="mbsc-img-thumbnail mbsc-pull-right" width="90" height="90" src="https://img.mobiscroll.com/demos/card_3.png">
+    <mbsc-card-header>
+        <mbsc-card-title>Best places</mbsc-card-title>
+    </mbsc-card-header>
+    <mbsc-card-content>
+        A view across the Turnagain Arm on Alaska's Kenai Peninsula.
+    </mbsc-card-content>
+</mbsc-card>
