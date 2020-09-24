@@ -9,9 +9,10 @@ import { StatusBar } from "@ionic-native/status-bar/ngx";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { FeedPageModule } from "./feed/feed.module";
+import { ControlerFormDirective } from './directive/controler-form.directive';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ControlerFormDirective],
   entryComponents: [],
   imports: [
     BrowserModule,
